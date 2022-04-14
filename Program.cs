@@ -7,6 +7,6 @@ string num_1 = Console.ReadLine();
 Console.WriteLine("Введите второе число: ");
 string num_2 = Console.ReadLine();
 if (Convert.ToInt32(num_1) > Convert.ToInt32(num_2))
-    Console.Write($"Максимальное число: {num_1}");
+    Console.Write($"Максимальное число: {num_1}, Минимальное число: {num_2}");
 else
-    Console.Write($"Максимальное число: {num_2}");
+    Console.Write($"Максимальное число: {num_2}, Минимальное число: {num_1}");
